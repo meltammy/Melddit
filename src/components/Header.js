@@ -79,7 +79,7 @@ const Header = (props) => {
                 <Tooltip title="abstract PNG Designed By hublot90 from Pngtree.com">
                     <ImgRaposa src="https://png.pngtree.com/element_our/png_detail/20180926/elegant-flame-unique-animal-fox-logo-vector-png_113190.jpg" />
                 </Tooltip>
-                <Labe>Labe</Labe><Eddit>ddit</Eddit>
+                <Labe>Mel</Labe><Eddit>ddit</Eddit>
             </LogoContainer>
         </HeaderContainer>
     );
