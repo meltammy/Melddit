@@ -1,6 +1,6 @@
 import TextField from '@material-ui/core/TextField';
 import styled from 'styled-components';
-import floresta from '../../image/floresta.jpg'
+import floresta from '../../img/floresta.jpg'
 
 export const LoginPageContainer = styled.div`
     width:100vw;

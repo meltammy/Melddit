@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 import TextField from '@material-ui/core/TextField';
-import floresta from '../../image/floresta.jpg'
-//********* CONTAINER DA PÁGINA   ********** */
-export const PageContainer = styled.div`
+import floresta from '../../img/floresta.jpg'
+
+export const Container = styled.div`
     width:100vw;
     height: 100vh;
     max-width:100vw;
@@ -14,10 +14,7 @@ export const PageContainer = styled.div`
     background-image: url(${floresta});
     background-size: cover;
 `
-/*---------------------------- */
-
-//********* CONTAINER DO FORM   ********** */
-export const FormContainer = styled.form`
+export const Form = styled.form`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,7 +30,7 @@ export const FormContainer = styled.form`
     background-color: white;
 `
 export const Input = styled(TextField)``
-export const BotaoEntrar = styled.button`
+export const Button = styled.button`
    color: #ec6e00;
    width: 24vh;
    height: fit-content;
@@ -54,10 +51,4 @@ export const BotaoEntrar = styled.button`
     border: 1px #7b7b7b solid;
    }
 `
-/*---------------------------- */
-
-//********* CONTAINER DO FOOTER   ********** */
-export const Footer = styled.div``
-/*---------------------------- */
-
 

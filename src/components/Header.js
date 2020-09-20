@@ -81,9 +81,6 @@ const Header = (props) => {
                 </Tooltip>
                 <Labe>Labe</Labe><Eddit>ddit</Eddit>
             </LogoContainer>
-            <ContainerBotoes>
-                <Botao onClick={props.onClickButton1}>{props.ButtonLabel}</Botao>
-            </ContainerBotoes>
         </HeaderContainer>
     );
 }
